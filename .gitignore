@@ -609,3 +609,4 @@ app-proxies.json
 .yarn
 yarn.lock
 package-lock.json
+.idea
