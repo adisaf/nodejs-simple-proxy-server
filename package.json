@@ -1,5 +1,5 @@
 {
-  "name": "proxy-server",
+  "name": "simple-proxy-server",
   "version": "1.0.0",
   "packageManager": "yarn@4.0.0",
   "description": "A Fastify server that acts as an inbound and outbound proxy.",
