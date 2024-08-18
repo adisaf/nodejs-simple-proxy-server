@@ -1,4 +1,39 @@
 {
-  "name": "serverproxy",
-  "packageManager": "yarn@4.2.2"
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.0.0",
+  "description": "A Fastify server that acts as an inbound and outbound proxy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@fastify/compress": "^7.0.3",
+    "@fastify/http-proxy": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.0.0",
+    "fastify-raw-body": "^4.3.0",
+    "hyperid": "^3.2.0",
+    "pino": "^9.3.2",
+    "pino-multi-stream": "^6.0.0",
+    "pino-pretty": "^11.2.2",
+    "pm2": "^5.4.2",
+    "pump": "^3.0.0",
+    "rotating-file-stream": "^3.2.3"
+  },
+  "devDependencies": {
+    "axios": "^1.7.4",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.0",
+    "supertest": "^7.0.0"
+  },
+  "keywords": [
+    "fastify",
+    "proxy",
+    "nodejs",
+    "http"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }

@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "name": "test 1",
+      "inbound": "webhook-site",
+      "outbound": "https://webhook.site/8ccbad16-f4bd-4f4c-ad07-20a54701fa3e"
+    },
+    {
+      "name": "test 2",
+      "inbound": "webhook-test",
+      "outbound": "https://webhook-test.com/bf54dd0e0cdb23f14a6d1fa5b2c4618b"
+    },
+    {
+      "name": "test 3",
+      "inbound": "webhook-3",
+      "outbound": "https://future-exabyte-27.webhook.cool"
+    }
+  ]
+}
